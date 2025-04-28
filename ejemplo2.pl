@@ -22,5 +22,3 @@ solucion(DuenoPez) :-
     member(casa(_, _, DuenoPez, _, _, pez), Casas),
     format('El dueño del pez es: ~w~n', [DuenoPez]).
 
-next_to(A, B, Lista) :- append(_, [A, B | _], Lista).
-next_to(A, B, Lista) :- append(_, [B, A | _], Lista).
